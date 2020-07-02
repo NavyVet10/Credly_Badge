@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(241, 231, 203);
+  font-family: "Raleway", Arial Nova;
+}
+nav{
+  background-color: rgba(52, 31, 248, 0.521);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100vw;
+  z-index: 1;
+} 
+nav ul li {
+  float: right;
+  margin-right: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+#brand {
+  float: left;
+  list-style-type: none;
+  text-align: center;
+}
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: 'Acme' , Arial Black;
+}
+.nav-link:hover {
+  color: darkred;
+  font-weight: bold;
+}
+#brand .nav-link{
+  color: darkred;
+  font-size: 18pt;
+}
+#brand .nav-link:hover{
+  color: rgb(255, 255, 255);
+}
+h1{
+  font-size: 60pt;
+  font-family: 'Acme', sans-serif;
+}
+#home {
+  margin-top: 50px;
+  position: relative;
+  left: -8px;
+  width: 100vw;
+  height: 40vh;
+  padding-top: 3em;
+  background: url(./assests/Cityscape1.jpg) center 75% no-repeat fixed;
+  background-size: cover;
+}
+.header-tag{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px black;
+}
+h3.header-tag {
+  margin-top: -30px;
+  font-size: 20pt;
+}
+h2{
+  font-family: 'Acme', Bradley Hand ITC;
+  color: rgba(52, 31, 248, 0.521);
+  font-size: 20pt;
+}
+h4{
+  font-family: Century Schoolbook;
+  color: rgba(52, 31, 248, 0.521);
+  font-size: 25pt;
+}
+.main{
+  text-align: center;
+}
+#about{
+  margin-top: 50px;
+  display: inline-block;
+}
+#about-picture {
+  width: 30vw;
+  float: left;
+}
+#profile-pic {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px black;
+}
+#about-content {
+  width: 50vw;
+  float: right;
+  font-size: 18pt;
+}
+#video {
+  margin-top: 50px;
+}
